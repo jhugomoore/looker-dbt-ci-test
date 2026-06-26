@@ -19,3 +19,5 @@ select *
 from source_data
 
 -- silly dummy comment to trigger CI run
+-- second dummy comment to trigger the new CI job
+
