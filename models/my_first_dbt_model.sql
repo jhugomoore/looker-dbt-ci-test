@@ -17,3 +17,5 @@ with source_data as (
 
 select *
 from source_data
+
+-- silly dummy comment to trigger CI run
