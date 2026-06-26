@@ -19,3 +19,5 @@ select *
 from source_data
 
 -- silly dummy comment to trigger CI run
+-- third dummy comment for new PR
+
