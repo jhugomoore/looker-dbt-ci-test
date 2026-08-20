@@ -4,6 +4,7 @@ version: '1.0.0'
 config-version: 2
 
 # This setting configures which directory to look for models in
+#more comments
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
