@@ -1,4 +1,4 @@
-connection: "bigquery-dbt"
+connection: "bq_dbt"
 
 include: "/views/**/*.view.lkml"
 

@@ -4,6 +4,8 @@ connection: "bq_dbt"
 # include all the views
 include: "/views/**/*.view.lkml"
 
+explore: my_first_dbt_model {}
+
 # Datagroups define a caching policy for an Explore. To learn more,
 # use the Quick Help panel on the right to see documentation.
 
