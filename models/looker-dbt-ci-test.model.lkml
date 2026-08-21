@@ -1,8 +1,10 @@
 # Define the database connection to be used for this model.
-connection: "bigquery"
+connection: "bq_dbt"
 
 # include all the views
 include: "/views/**/*.view.lkml"
+
+explore: my_first_dbt_model {}
 
 # Datagroups define a caching policy for an Explore. To learn more,
 # use the Quick Help panel on the right to see documentation.
@@ -13,4 +15,3 @@ datagroup: looker_dbt_ci_test_default_datagroup {
 }
 
 persist_with: looker_dbt_ci_test_default_datagroup
-
