@@ -1,5 +1,5 @@
 # Define the database connection to be used for this model.
-connection: "bigquery"
+connection: "bq_dbt"
 
 # include all the views
 include: "/views/**/*.view.lkml"
@@ -13,4 +13,3 @@ datagroup: looker_dbt_ci_test_default_datagroup {
 }
 
 persist_with: looker_dbt_ci_test_default_datagroup
-
