@@ -7,11 +7,11 @@
 
 with source_data as (
 
-    select 1 as id, 'orange' as color
+    select 1 as id, 'orange' as favorite_color
     union all
-    select 2 as id, 'blue' as color
+    select 2 as id, 'blue' as favorite_color
     union all
-    select 3 as id, 'green' as color
+    select 3 as id, 'green' as favorite_color
 
 )
 
