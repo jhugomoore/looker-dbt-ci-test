@@ -1,5 +1,6 @@
 connection: "bigquery-dbt"
 
-include: "/views/**/*.view.lkml" # or path to your view files
+include: "/views/**/*.view.lkml"
 
-explore: users {} # <-- Defines the explore for the SQL Validator to test
+explore: my_first_dbt_model {}
+explore: users {}
