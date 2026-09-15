@@ -8,4 +8,8 @@ view: users {
     type: string
     sql: ${TABLE}.last_name ;;
   }
+  dimension: broken_ref {
+    type: string
+    sql: ${does_not_exist} ;;
+  }
 }
