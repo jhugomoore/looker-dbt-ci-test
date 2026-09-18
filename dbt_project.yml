@@ -1,0 +1,22 @@
+# Name of your project
+name: 'dbt_test_project'
+version: '1.0.0'
+config-version: 2
+
+# This setting configures which directory to look for models in
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# Configure models
+models:
+  dbt_test_project:
+    # Configures all models in the project to be materialized as views by default
+    +materialized: view
